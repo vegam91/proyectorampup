@@ -1,0 +1,19 @@
+header {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(84, 191, 84);
+    padding: 20px;
+    text-align: center;}
+    
+    nav {
+        background-color: rgb(34, 132, 34);
+        color: #fff;
+        padding: 10px;
+    }
+    nav ul {
+      margin: 0;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline-block;
+        flex-direction: left;
+    }
