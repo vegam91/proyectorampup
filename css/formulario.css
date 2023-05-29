@@ -1,17 +1,9 @@
 form{
-	width:80%;
+	width:300px;
 	padding:16px;
-	border-radius:30px;
+	border-radius:10px;
 	margin:auto;
 	background-color:#ccc;
-display: flex;}
+display:inline-block ;
 
-.uno{
-width: 100px;
-height: 100px;
-}
-
-.fin{
-	height: 100px;
-	align-items: flex-end;
 }

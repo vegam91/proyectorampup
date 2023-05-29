@@ -5,15 +5,16 @@
 
 .container {
     margin: 0 auto;
-    max-width:10o; 
+    max-width:100%; 
     padding: 0 10px;
   }
   
   .header {
- 
+ background-color: #B3C890;
     background-size: cover;
     height: 800px;
     text-align: center; 
+  
   }
   
   .header .container {
@@ -22,37 +23,42 @@
   }
   
   .header h1 {
-    color: #fff;
+    color:#F8EAD8;
     line-height: 100px; 
     font-size: 80px;
-    margin-top: 0;
-    margin-bottom: 80px;
-    text-transform: uppercase; 
-
-  }
+    margin-top:0;
+    margin-bottom:80px;
+    text-transform:uppercase; 
+}
 
   
 
 h2{
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
     
 }
 .container{
 width: 100%;
-background-color:#DBDFAA
+background-color:#B3C890
 
-}
+} 
+
 .logo{
 width: 10px;
-justify-content: cen;
-}
+background-color:  #F5F0BB ;
+display: flex;
+justify-content: left;}
+
 img{
+
 height: 200px;
 width: 200px;
 }
 
 .nav { 
-    background: #000;
+    background-color: #F8EAD8 ; 
     height: 80px; 
     width: 100%;
   }
@@ -62,6 +68,8 @@ width: 200px;
     list-style: none;
     margin: 0 auto; 
     padding: 0;
+    display: flex;
+    justify-content: space-between;
   }
   
   .nav ul li {
@@ -71,6 +79,8 @@ width: 200px;
     line-height: 80px; 
     list-style: none;
     padding: 0 10px;
+  
+    
     
   }
     
@@ -78,12 +88,9 @@ width: 200px;
  main{
     height: 600px;
 background-color: #B3C890 ;
+}
 
 
- }
- #p{
-justify-content: center;
-;
-
-
- }
+  .p p {
+    margin-bottom: 10px;
+  }
