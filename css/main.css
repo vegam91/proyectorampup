@@ -33,21 +33,19 @@ h2 {
 }
 .logo {
   width: auto;
-  background-color:  #b3c890;
+  background-color: #b3c890;
   display: flex;
   justify-content: right;
   border: black;
 }
-
 
 img {
   height: 200%;
   width: 200px;
 }
 
-
 nav {
-  background-color: #B3C890 ;
+  background-color: #b3c890;
   height: 80px;
   width: 100%;
 }
@@ -68,17 +66,15 @@ nav ul li {
   line-height: 80px;
   list-style: none;
   padding: 0 10px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 main {
   height: 600px;
-  background-color: #b3c890;
+  background-color: #B3C890;
   width: auto;
-  
 }
 section{
- 
   height: 200px;
   padding-left: 100px;
   padding-top: 100px;
@@ -87,10 +83,8 @@ h3{
 display: flex;
 justify-content: center;
 align-items: flex-start;
-
 }
 .proyecto {
-
   margin: 100px;
 padding: 100px;
 }
@@ -99,10 +93,17 @@ display: flex;
 justify-content: left;
 flex-direction: column;
 justify-content: space-between;
-
 }
 
-
+ul li{
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  height: 50px;
+  padding: 50px;
+  background-color: #b3c890;
+}
 
 /* Media queries para 768px */
 @media screen and (max-width: 768px) {
@@ -119,8 +120,6 @@ justify-content: space-between;
     height: 100px;
     width: 100px;
   }
-
-
 
   .nav ul li {
     padding: 0 5px;
