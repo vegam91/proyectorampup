@@ -5,9 +5,8 @@
 }
 
 .container {
-  margin: 0 auto;
-  width: auto;
-  padding: 0 10px;
+  margin: 0 ;
+  padding: 0 ;
   background-color: #b3c890;
 }
 
@@ -37,19 +36,19 @@ h2 {
   display: flex;
   justify-content: right;
   border: black;
+  margin-right: 20px;
 }
 
 img {
   height: 200%;
-  width: 200px;
+  width: 100px;
 }
 
 nav {
-  background-color: #b3c890;
+  background-color:cadetblue;
   height: 80px;
   width: 100%;
 }
-
 nav ul {
   height: 80px;
   list-style: none;
@@ -59,14 +58,17 @@ nav ul {
   justify-content: space-between;
 }
 
+
 nav ul li {
-  color: #fff;
+  color:#fdfd96;
   display: inline-block;
   height: 80px;
   line-height: 80px;
   list-style: none;
   padding: 0 10px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+margin-bottom: 10px;
+
 }
 
 main {
@@ -83,26 +85,33 @@ h3{
 display: flex;
 justify-content: center;
 align-items: flex-start;
+margin-bottom: 30px;
 }
 .proyecto {
-  margin: 100px;
-padding: 100px;
+ 
+    background-color: #b3c890;
+    height: 200px;
+    width: 100%;
 }
- .proyecto ul li {
-display: flex;
-justify-content: left;
-flex-direction: column;
-justify-content: space-between;
-}
-
-ul li{
+ 
+.proyecto ul li {
+  height: 80px;
+  list-style: none;
+  margin: 0 ;
+  padding: 0;
   display: flex;
   justify-content: space-between;
+  margin-left: 30px;
 }
+
+
+
+
 footer {
   height: 50px;
   padding: 50px;
-  background-color: #b3c890;
+  background-color:cadetblue;
+  width: 100%;
 }
 
 /* Media queries para 768px */
@@ -111,7 +120,7 @@ footer {
     padding: 0 5px;
   }
 
-  .header h1 {
+  .header h1 h2 {
     font-size: 60px;
     margin-bottom: 40px;
   }
